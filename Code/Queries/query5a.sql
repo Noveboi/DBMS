@@ -1,4 +1,4 @@
-SELECT DISTINCT vessel_id 
+SELECT DISTINCT vessel_id, description
 FROM Positions AS p
 INNER JOIN Vessels AS v ON p.vessel_id=v.id
 INNER JOIN VesselTypes AS vt ON v.type=vt.code
