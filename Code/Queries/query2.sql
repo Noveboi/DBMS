@@ -1,2 +1,4 @@
-SELECT type, count(*) FROM Vessels WHERE flag='Greece' 
+SELECT type, COUNT(*) 
+FROM Vessels 
+WHERE flag='Greece' 
 GROUP BY type
